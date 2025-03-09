@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Додати новий продукт</h2>
+<form method="POST">
+    <input type="text" name="name" placeholder="Назва продукту" required>
+    <input type="number" name="calories" placeholder="Калорії" required>
+    <input type="number" name="protein" placeholder="Білки" required>
+    <input type="number" name="fat" placeholder="Жири" required>
+    <input type="number" name="carbs" placeholder="Вуглеводи" required>
+    <input type="number" name="sugar" placeholder="Цукор" required>
+    <button type="submit">Додати продукт</button>
+</form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Ласкаво просимо до Калькулятора калорій!</h1>
+    <p>Цей інструмент допоможе вам відстежувати споживані калорії та харчову цінність продуктів.</p>
+    <nav>
+        <ul>
+            <li><a href="{{url_for('food_list')}}">Список продуктів</a></li>
+            <li><a href="{{url_for('add_foodd')}}">Додати продукт</a></li>
+            <li><a href="{{url_for('user_profile')}}">Профіль користувача</a></li>
+        </ul>
+    </nav>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Світло-сірий фон */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white; /* Білий фон для контейнера */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #4CAF50; /* Зелений фон для заголовка */
+    color: #fff; /* Білий текст */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff; /* Білий текст для посилань */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+h1, h2 {
+    color: #333; /* Темно-сірий текст для заголовків */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Світло-сірий бордер */
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50; /* Зелений фон для кнопки */
+    color: white; /* Білий текст */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #45a049;
+}
