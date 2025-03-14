@@ -3,6 +3,7 @@ from werkzeug.security import check_password_hash
 from models import Session, User
 from app import app
 
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -24,6 +25,7 @@ def login():
         db_session.close()
 
     return render_template('login.html')
+
 
 @app.route("/logout")
 def logout():

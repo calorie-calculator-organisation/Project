@@ -14,7 +14,7 @@ class Base(DeclarativeBase):
     ...
 
 def create_db():
-    Base.methadata.create_all(blind=engine)
+    Base.metadata.create_all(bind=engine)
 
 def drop_db():
-    Base.methadata.drop_all(blind=engine)
+    Base.metadata.drop_all(bind=engine)

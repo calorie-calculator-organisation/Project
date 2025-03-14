@@ -1,9 +1,10 @@
 from flask import request, render_template, redirect, url_for, flash
-from sqlachemy.exc import IntegrityError
+from sqlalchemy.exc import IntegrityError
 from werkzeug.security import generate_password_hash
 from models import Session, User
 
 from app import app
+
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
