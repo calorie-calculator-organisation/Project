@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 #create_db()
 
-from .routes import *
+from routes import *
 
 
 @app.route('/')

@@ -1,8 +1,8 @@
 from flask import request, render_template, redirect, url_for, flash
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import generate_password_hash
-from models import Session, User
 
+from models import Session, User
 from app import app
 
 
